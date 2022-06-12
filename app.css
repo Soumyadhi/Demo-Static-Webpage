@@ -492,6 +492,7 @@ a {
     font-size: calc(var(--font-size) * 0.7);
     background-color: rgb(30, 30, 54);
     border-bottom: #5ce1e6 solid 3px;
+    justify-content: flex-start;
     transform: scaleY(100%);
     z-index: 10;
   }
