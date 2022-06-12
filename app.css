@@ -396,6 +396,11 @@ a {
   font-size: calc(var(--font-size) * 0.5);
   padding: 8px 20px;
   margin-top: 10px;
+  cursor: pointer;
+}
+.contact-container-form-submit:active {
+  background-color: #4ab7bb;
+  color: rgb(30, 30, 36);
 }
 
 .moveup a {
@@ -481,13 +486,13 @@ a {
   }
 
   .navigation-container {
-    display: block;
     opacity: 100%;
     position: sticky;
     top: 0px;
     font-size: calc(var(--font-size) * 0.7);
     background-color: rgb(30, 30, 54);
     border-bottom: #5ce1e6 solid 3px;
+    transform: scaleY(100%);
     z-index: 10;
   }
 
